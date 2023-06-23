@@ -1,0 +1,5 @@
+# Descargamos PostgreSQL
+docker pull postgres
+
+# Creamos el contenedor
+docker run -d -p 54320:5432 --name psql_docker -e POSTGRES_PASSWORD=datahub -d postgres

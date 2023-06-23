@@ -1,0 +1,10 @@
+# Descargamos MySQL
+docker pull mysql
+
+# Creamos el contenedor
+docker run -d -p 33060:3306 --name mysql_docker -e MYSQL_ROOT_PASSWORD=datahub mysql
+
+
+
+
+
